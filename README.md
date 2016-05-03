@@ -4,7 +4,7 @@ This code is designed for building previews of 3D models. So we aim at rendering
 
 ### Main Features
 1. A light-weight offscreen renderer in C++. 
-2. Easy to compile and fast to run. 
+2. Fast to run. 
 3. Run in command line. 
 4. Support over 40+ common 3D formats such as OBJ, OFF and COLLADA. 
 5. Support materials and textures. 
@@ -22,7 +22,7 @@ Second, install Mesa3D (>=11.0.7):
 	wget ftp://ftp.freedesktop.org/pub/mesa/11.0.7/mesa-11.0.7.tar.gz
 	tar xvf mesa-11.0.7.tar.gz
 	cd mesa-11.0.7
-	./configure --enable-osmesa --disable-driglx-direct --disable-dri --with-gallium-drivers= --disable-egl
+	./configure --enable-osmesa --disable-driglx-direct
 	make -j20
 	sudo make install
 	
