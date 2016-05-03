@@ -1,7 +1,7 @@
 # A Light-weight, Offscreen and Fast 3D Model Renderer
 
 ### Features
-This code is designed for building previews of 3D models. So efficiency and 3D format compatibility outweigh quality.
+This code is designed for building previews of 3D models. So we aim at rendering many formats of 3D models robustly with acceptable quality.
 
 1. A light-weight offscreen renderer in C++. 
 2. Easy to compile and fast to run. 
@@ -36,4 +36,4 @@ This will create an executable named `render`
 run `render` and help message appears.
 
 ### Note:
-Normal smoothing is not enabled. 
+Normal smoothing is not enabled. This is to avoid bad rendering when surface normals are incorrect. 
