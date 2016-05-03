@@ -22,7 +22,7 @@ Second, install Mesa3D (>=11.0.7):
 	wget ftp://ftp.freedesktop.org/pub/mesa/11.0.7/mesa-11.0.7.tar.gz
 	tar xvf mesa-11.0.7.tar.gz
 	cd mesa-11.0.7
-	./configure --enable-osmesa --disable-driglx-direct --disable-dri --with-gallium-drivers=swrast --disable-egl
+	./configure --enable-osmesa --disable-driglx-direct --disable-dri --with-gallium-drivers= --disable-egl
 	make -j20
 	sudo make install
 	
