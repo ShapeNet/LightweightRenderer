@@ -32,8 +32,8 @@ Then, build the code by running
   
 This will create an executable named `render`
 
-### Usage:
+### Usage
 run `render` and help message appears.
 
-### Note:
+### Note
 Normal smoothing is not enabled. This is to avoid bad rendering when surface normals are incorrect. 
