@@ -43,7 +43,8 @@ Lastly, test your build by running
 	./render airplane.obj airplane.png
 	
 This should generate an image named `airplane.png` as below:
-![example]()
+
+![example](https://github.com/ShapeNet/LightweightRenderer/blob/master/airplane.png)
 
 ### Usage
 run `render` and help message appears.
