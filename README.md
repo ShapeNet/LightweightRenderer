@@ -26,16 +26,24 @@ Second, install Mesa3D (>=11.0.7):
 	make -j20
 	sudo make install
 	
-By default, this will install OSMesa to /usr/local.
+By default, this will install OSMesa to `/usr/local`.
 
-Note that you may have other versions of Mesa3D installed before. Then you need to uninstall/remove/disable old versions. Old versions of OSMesa might be in /usr/lib/x86_64-linux-gnu. 
+Note that you may have other versions of Mesa3D installed before. Then you need to uninstall/remove/disable old versions, or set `LD_LIBRARY_PATH`. Old versions of OSMesa might be found in `/usr/lib/x86_64-linux-gnu`. 
 
 Third, build the renderer by running
 
-	git clone 
+	git clone git@github.com:ShapeNet/LightweightRenderer.git
+	cd LightweightRenderer
 	make
   
 This will create an executable named `render`
+
+Lastly, test your build by running
+	
+	./render airplane.obj airplane.png
+	
+This should generate an image named `airplane.png` as below:
+![example]()
 
 ### Usage
 run `render` and help message appears.
