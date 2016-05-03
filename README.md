@@ -28,7 +28,7 @@ Second, install Mesa3D (>=11.0.7):
 	
 By default, this will install OSMesa to `/usr/local`.
 
-Note that you may have other versions of Mesa3D installed before. Then you need to uninstall/remove/disable old versions, or set `LD_LIBRARY_PATH`. Old versions of OSMesa might be found in `/usr/lib/x86_64-linux-gnu`. 
+**Note** You may have other versions of Mesa3D installed before. Then you need to uninstall/remove/disable old versions, or set `LD_LIBRARY_PATH`. Old versions of OSMesa might be found in `/usr/lib/x86_64-linux-gnu`. 
 
 Third, build the renderer by running
 
