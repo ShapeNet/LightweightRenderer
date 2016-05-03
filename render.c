@@ -47,7 +47,7 @@ static int Height = 400;
 char *modelname;
 char *pngname;
 
-GLfloat        camx = 0.0, camy = 1.0, camz = -4.0;
+GLfloat        camx = 0.0, camy = 1.0, camz = 4.0;
 GLfloat        centerx = 0.0, centery = 0.0, centerz = 0.0;
 GLfloat        upx = 0.0, upy = 1.0, upz = 0.0;
 GLfloat        fovy = 45.0;
