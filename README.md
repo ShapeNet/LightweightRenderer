@@ -23,15 +23,6 @@ Then, build the code by running
   
 This will create an executable named `render`
 
-#### MacOS
-I haven't tried to compile it on MacOS yet, though it should not be hard. You need to take care of dependencies: OSMesa, GLEW, DevIL and Assimp. They all support MacOS.
-
-Then, build the code by running
-	
-	make
-  
-This will create an executable named `render`
-
 ### Usage
 run `render` and help message appears.
 
