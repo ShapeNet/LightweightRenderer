@@ -16,7 +16,7 @@ First, install dependencies by apt-get:
     
 Then, build the code by running
 
-  make
+	make
   
 This will create an executable named `render`
 
