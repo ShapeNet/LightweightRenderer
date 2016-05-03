@@ -29,5 +29,5 @@ Then, build the code by running
   
 This will create an executable named `render`
 
-#### Usage:
+### Usage:
 run `render` and help message appears.
