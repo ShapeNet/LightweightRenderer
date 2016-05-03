@@ -1,4 +1,4 @@
-# Light-weight,Offscreen, Fast Renderer
+# A Light-weight, Offscreen, Fast 3D Model Renderer
 
 ### Features
 This code is designed for building previews of 3D models. So efficiency and 3D format compatibility outweigh quality.
