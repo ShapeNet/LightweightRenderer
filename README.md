@@ -15,7 +15,7 @@ This code is designed for building previews of 3D models. So we aim at rendering
 
 First, install dependencies by apt-get:
 		
-	sudo apt-get install libosmesa-dev libglew-dev libdevil-dev libassimp-dev
+	sudo apt-get install libosmesa-dev libglew-dev libdevil-dev libassimp-dev freeglut3-dev
     
 Then, build the code by running
 
