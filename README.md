@@ -15,12 +15,24 @@ This code is designed for building previews of 3D models. So we aim at rendering
 
 First, install dependencies by apt-get:
 		
-	sudo apt-get install libosmesa-dev libglew-dev libdevil-dev libassimp-dev freeglut3-dev libpng3
+	sudo apt-get install libglew-dev libdevil-dev libassimp-dev freeglut3-dev libpng3
 
-You need latest Mesa3D support (>=11.3). It might be tricky to get the support from latest Mesa3D.
+Second, install Mesa3D (>=11.0.7):
+	
+	wget ftp://ftp.freedesktop.org/pub/mesa/11.0.7/mesa-11.0.7.tar.gz
+	tar xvf mesa-11.0.7.tar.gz
+	cd mesa-11.0.7
+	./configure --enable-osmesa --disable-driglx-direct --disable-dri --with-gallium-drivers=swrast --disable-egl
+	make -j20
+	sudo make install
+	
+By default, this will install OSMesa to /usr/local.
 
-Then, build the code by running
+Note that you may have other versions of Mesa3D installed before. Then you need to uninstall/remove/disable old versions. Old versions of OSMesa might be in /usr/lib/x86_64-linux-gnu. 
 
+Third, build the renderer by running
+
+	git clone 
 	make
   
 This will create an executable named `render`
