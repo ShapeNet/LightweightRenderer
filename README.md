@@ -1,5 +1,5 @@
 # LightweightRenderer
-A light-weight offscreen renderer programmed in C++. Easy to compile and fast to run. Support over 40+ common 3D formats such as OBJ, OFF and COLLADA. Support materials and textures. 
+A light-weight offscreen renderer in C++. Run in command line. Easy to compile and fast to run. Support over 40+ common 3D formats such as OBJ, OFF and COLLADA. Support materials and textures. 
 
 ### Installation on Linux (tested on Ubunut 14.04)
 
