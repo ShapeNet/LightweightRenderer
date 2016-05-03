@@ -1,8 +1,8 @@
 # A Light-weight, Offscreen and Fast 3D Model Renderer
 
-### Features
-This code is designed for building previews of 3D models. So we aim at rendering many formats of 3D models robustly with acceptable quality.
+This code is designed for building previews of 3D models. So we aim at rendering many formats of 3D models robustly with acceptable quality. 
 
+### Main Features
 1. A light-weight offscreen renderer in C++. 
 2. Easy to compile and fast to run. 
 3. Run in command line. 
