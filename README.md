@@ -15,7 +15,7 @@ This code is designed for building previews of 3D models. So we aim at rendering
 
 First, install dependencies by apt-get:
 		
-	sudo apt-get install libglew-dev libdevil-dev libassimp-dev freeglut3-dev libpng3
+	sudo apt-get install libglew-dev libdevil-dev libassimp-dev freeglut3-dev libpng3 libsysfs-dev
 
 Second, install Mesa3D (>=11.0.7):
 	
