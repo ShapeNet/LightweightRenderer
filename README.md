@@ -30,6 +30,10 @@ By default, this will install OSMesa to `/usr/local`.
 
 **Note** You may have other versions of Mesa3D installed before. Then you need to uninstall/remove/disable old versions, or set `LD_LIBRARY_PATH`. Old versions of OSMesa might be found in `/usr/lib/x86_64-linux-gnu`. 
 
+It is suggested that you set your `LD_LIBRARY_PATH` as follows:
+	
+	set LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+
 Third, build the renderer by running
 
 	git clone git@github.com:ShapeNet/LightweightRenderer.git
