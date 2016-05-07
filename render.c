@@ -47,13 +47,13 @@ static int Height = 400;
 char *modelname;
 char *pngname;
 
-GLfloat        camx = 0.0, camy = 1.0, camz = 4.0;
+GLfloat        camx = 0.0, camy = 1.0, camz = -4.0;
 GLfloat        centerx = 0.0, centery = 0.0, centerz = 0.0;
 GLfloat        upx = 0.0, upy = 1.0, upz = 0.0;
 GLfloat        fovy = 45.0;
 
 GLfloat LightAmbient[]= { 0.1f, 0.1f, 0.1f, 1.0f };
-GLfloat LightDiffuse[]= { 0.5f, 0.5f, 0.5f, 1.0f };
+GLfloat LightDiffuse[]= { 1.0f, 1.0f, 1.0f, 1.0f };
 
 GLfloat Light1Position[]= { 15.0f, 15.0f, 15.0f, 1.0f };
 GLfloat Light2Position[]= { 15.0f, 15.0f, -15.0f, 1.0f };
@@ -520,6 +520,7 @@ int InitGL(int width, int height)
     glLightfv(GL_LIGHT3, GL_DIFFUSE, LightDiffuse);
     glLightfv(GL_LIGHT3, GL_POSITION, Light3Position);
     
+    /*
     glEnable(GL_LIGHT4);    
     glLightfv(GL_LIGHT4, GL_AMBIENT, LightAmbient);
     glLightfv(GL_LIGHT4, GL_DIFFUSE, LightDiffuse);
@@ -538,9 +539,8 @@ int InitGL(int width, int height)
     glEnable(GL_LIGHT7);    
     glLightfv(GL_LIGHT7, GL_AMBIENT, LightAmbient);
     glLightfv(GL_LIGHT7, GL_DIFFUSE, LightDiffuse);
-    glLightfv(GL_LIGHT7, GL_POSITION, Light7Position);
-    
-
+    glLightfv(GL_LIGHT7, GL_POSITION, Light7Position); 
+    */
     
 
     return true;                    // Initialization Went OK
